@@ -29,9 +29,3 @@ class Person
     end
   end
 end
-
-person1 = Person.new("Zach", "Stone", "E")
-person1.print_name
-
-person2 = Person.new("Zach E Stone")
-person2.print_name
