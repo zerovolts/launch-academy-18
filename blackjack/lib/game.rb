@@ -13,15 +13,11 @@ class Game
     puts "Welcome to Blackjack!"
     puts
 
-    player_score = player_turn
-
-    if player_score == :bust
+    if player_turn == :bust
       puts "Bust! You lose..."
     else
       puts
-      computer_score = computer_turn
-
-      if computer_score == :bust
+      if computer_turn == :bust
         puts "Dealer busts! You win!"
       else
         puts "Dealer stands."
