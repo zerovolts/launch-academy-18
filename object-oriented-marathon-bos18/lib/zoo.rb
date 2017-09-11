@@ -24,8 +24,8 @@ class Zoo
   end
 
   def visit
-    employee_greetings = @employees.map {|employee| employee.greet + "\n"}
-    animal_greetings = @cages.select {|cage| !cage.empty?}.map {|cage| cage.animal.speak + "\n"}
-    (employee_greetings + animal_greetings).join("")
+    employee_greetings = @employees.map {|employee| employee.greet}
+    animal_greetings = @cages.select {|cage| !cage.empty?}.map {|cage| cage.animal.speak}
+    (employee_greetings + animal_greetings).map {|str| str + "\n"}.join("")
   end
 end
