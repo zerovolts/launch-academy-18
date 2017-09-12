@@ -1,0 +1,28 @@
+<a href="/articles">Back</a>
+<h1>New Article</h1>
+<% if !@errors.empty? %>
+  <div class="error">
+    These fields are required:
+    <ul>
+      <% @errors.each do |error| %>
+        <li><%= error %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<form action="/articles/new" method="post">
+  <label for="title">Title</label><br />
+  <input type="text" id="title" name="title" value="<%= @title %>" />
+  <br />
+
+  <label for="url">URL</label><br />
+  <input type="text" id="url" name="url" value="<%= @url %>" />
+  <br />
+
+  <label for="description">Description</label><br />
+  <textarea id="description" name="description"><%= @description %></textarea>
+  <br />
+
+  <input type="submit" />
+</form>

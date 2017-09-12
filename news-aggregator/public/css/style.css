@@ -1,0 +1,39 @@
+body {
+  font-family: Ubuntu;
+  background: #eed;
+  color: #445;
+  width: 60%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #f60;
+}
+
+#wrapper {
+  margin: 1em;
+}
+
+#content {
+  background: #fff;
+  padding: 2em;
+  box-shadow: 0px 2px 2px #aa9;
+}
+
+.error {
+  color: #e22;
+  background: #eee;
+  padding: 1em;
+  margin: 1em;
+}
+
+input {
+  margin-bottom: 2em;
+}
+
+textarea {
+  margin-bottom: 2em;
+  width: 24em;
+  height: 8em;
+}

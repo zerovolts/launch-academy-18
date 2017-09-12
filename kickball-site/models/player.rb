@@ -1,4 +1,4 @@
-require_relative "./team_data"
+require_relative "team_data"
 
 class Player
   attr_reader :name, :position, :team_name
