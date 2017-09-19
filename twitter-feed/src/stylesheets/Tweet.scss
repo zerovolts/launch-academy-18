@@ -1,0 +1,47 @@
+.tweet {
+  background: #fff;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 0.3em;
+  box-shadow: 0px 3px $grey;
+}
+
+img {
+  border-radius: 0.4em;
+}
+
+img.media {
+  max-width: 480px;
+}
+
+.picture {
+  position: absolute;
+}
+
+.content {
+  padding-left: 6em;
+}
+
+.dull {
+  color: $grey;
+}
+
+.icon-text {
+  font-family: Ubuntu;
+}
+
+.icon {
+  margin-right: 4em;
+}
+
+.text {
+  margin: 0.5em 0em;
+}
+
+.favorited {
+  color: $red;
+}
+
+.retweeted {
+  color: $green;
+}
