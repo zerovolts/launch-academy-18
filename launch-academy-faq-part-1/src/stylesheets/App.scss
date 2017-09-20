@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela');
+
+body {
+  background: $light-blue;
+  color: $grey;
+  font-family: Ubuntu;
+  width: 60%;
+  margin: auto;
+}
+
+h1 {
+  font-family: Gabriela;
+  color: $blue;
+  text-align: center;
+}
+
+.visible {
+  color: $green;
+}
+
+.hidden {
+  color: $black;
+}
+
+.question-block {
+  margin: 1em;
+}
+
+.question {
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+.answer {
+  margin: 0.5em 0em;;
+}
